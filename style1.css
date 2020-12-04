@@ -1,0 +1,98 @@
+#popup {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 35%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#titluPopup{
+    font-family: Merriweather, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 80%;
+    margin-top: 15px;
+}
+
+#footerPopup{
+    font-family: Merriweather, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 87%;
+    margin-top: 15px;
+}
+
+#headerPop, #footerPop{
+    background-color: #92E3A9;
+    padding: 0px 0px 0px 0px;
+}
+
+#closePop {
+    padding: 10px;
+}
+
+#dropdownMenu1{
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 2px solid;
+    width: 80%;
+}
+
+#InputTitlu{
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#wrapperIncarca, #wrapperd1, #wrapperd2{
+    text-align: center !important;
+}
+
+input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#incarca{
+    margin-top: 20px;
+    color: #92E3A9;
+    padding: 5px 60px 8px 60px;
+    background: rgba(38, 50, 56, 1);
+    
+}
+
+#footerPop{
+    margin-top: 60px;
+}
+
+.firstOp{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263238;
+}
+
+.secondOp{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #92E3A9;
+    margin-top: -10px;
+}
+
+#entry{
+    width: 85%;
+    margin-top: 15px;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm container">
+      <a class="navbar-brand text-dark" id="titlu" href="#">
+        <img src="nav icon.svg" alt="Menu">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6666 20.6667H27.3333V27.3333H20.6666V20.6667ZM10.6666 20.6667H17.3333V27.3333H10.6666V20.6667ZM0.666626 20.6667H7.33329V27.3333H0.666626V20.6667ZM20.6666 10.6667H27.3333V17.3333H20.6666V10.6667ZM10.6666 10.6667H17.3333V17.3333H10.6666V10.6667ZM0.666626 10.6667H7.33329V17.3333H0.666626V10.6667ZM20.6666 0.666656H27.3333V7.33332H20.6666V0.666656ZM10.6666 0.666656H17.3333V7.33332H10.6666V0.666656ZM0.666626 0.666656H7.33329V7.33332H0.666626V0.666656Z" fill="#263238"/>
+          </svg>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="logare" href="#">Logare</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Creare cont</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+
+    <!--PRIMA SECTIUNE-->
+
+      <div class="container-fluid w-75" id="main">
+        <div class="row">
+          <div class="col-sm-6 " id="left-pan">
+            <div class="row">
+              <p id="slogan"><b>Cumpăratul de teme nu a<br>fost niciodată mai simplu!</b></p>
+            </div>
+            <div class="row" id="slogan1">
+              <p>Platforma ideală pentru studenții de la Politehnica cu portofelele pline, care au nevoie urgent de un înger care sa le repare nota 
+              de intrare în examen.</p>
+            </div>
+            <div class="row" id="butoane">
+              <div class="col-sm-5 justify-content-center">
+                <a id="but1">Vreau să cumpăr</a>
+              </div>
+              <div class="col-sm-7">
+                <a id="but2">Vreau să fac teme pentru alții</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="plain sad.svg" id="girl" alt="nothing to see here people, move on">
+          </div>
+        </div>
+      </div>
+
+      <!--SECTIUNE EXPLICATII-->
+
+      <div class="row rect">
+          <div class="col-sm col-centered">
+            <p id="subtitle">Cum funcționează?</p>
+          </div>
+      </div>
+      <div id="all">
+        <div class="row rect w-75" id="info">
+          
+          <div class="col-sm-1">
+            <img class="numere" src="1.svg" alt="1">
+          </div>
+          <div class="col-sm-3">
+            <p class="expl">Realizezi un cont pe platformă în
+            care introduci câteva detalii
+            personale (nu vă faceți griji,
+            profesorii nu or să va descopere)
+            și materiile la care ai nevoie de
+            ajutor.</p>
+          </div>
+          <div class="col-sm-1">
+            <img class="numere" src="2.svg" alt="2">
+          </div>
+          <div class="col-sm-3">
+            <p class="expl">Străbați platforma în căutare de
+              studenți care oferă servicii la
+              materiile dorite sau te rogi la
+              Sfântul 5 să primești mesaj de la
+              cineva care te descoperă și e
+              dispus să te salveze.</p>
+          </div>
+          <div class="col-sm-1">
+            <img class="numere" src="3.svg" alt="3">
+          </div>
+          <div class="col-sm-3">
+            <p class="expl">După ce stabiliți o sumă care
+              oricum este de zeci de ori mai mare
+              decât la alte universități,
+              aștepti ca noul vostru amic să
+              vă încarce soluția pe platformă.
+              Jumătate din plată oferiți în
+              avans, restul după ce vă vedeți
+              intrat în examen.</p>
+          </div>
+        </div>
+      </div>
+
+    <!--FORMULAR-->
+
+      <div id="form-section">
+        <div class="container" id="form">
+      <!--coloana stanga-->
+      <div class="row">
+          <div class="col-sm-6">
+            <div class="row">
+              <p id="tease">Ai tupeu și crezi că poți<br>
+                să aduci îmbunătățiri<br>
+                la platformă?</p>
+            </div>
+            <div class="row">
+              <p>Trimite-ne un mail și roagă-te să<br>
+              nu ne apuce râsul când vedem<br>
+              ce îți trece prin cap.</p>
+            </div>
+          </div>
+
+      <!--coloana dreapta formular-->
+          
+          <div class="col-sm-6">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nume</label>
+                <input type="text" class="form-control" id="InputNume" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Email</label>
+                <input type="password" class="form-control" id="InputEmail">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Injuratura</label>
+                <input type="text" class="form-control" id="InputInj">
+              </div>
+              <button type="submit" class="btn" id="trimite">Trimite</button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!--FOOTER-->
+      
+      <div class="container-fluid" id="footer">
+        <div class="row" id="icons">
+          <span>
+            <a href="#"><img src="facebook.svg" alt="fb"></a>
+            <a href="#"><img src="twitter.svg" alt="fb"></a>
+            <a href="#"><img src="instagram.svg" alt="fb"></a>
+          </span>
+        </div>
+        <div class="row" id="disclaimer">
+          <p class="text-center" id="cpright">Copyright 2020 | Cine ne pârăște o mierlește.</p>
+        </div>
+      </div>
+
+      <!--POPUP-->
+
+      <div class="bgBlur">
+        <div id="popup-section">
+          <div class="container" id="popup">
+            <div class="row" id="headerPop">
+              <p id="titluPopup" class="container">Exprimă-ți frustrările</p>
+              <a href="" id="closePop"><img src="x.svg" alt="X"></a>
+            </div>
+      
+        <!--DROP-DOWN -->
+      
+            <div class="dropdown">
+      
+              <div id="wrapperd1">
+                <button class="btn dropdown-toggle form-control" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Alege materia
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                </div>
+              </div>
+              
+            
+              <div id="wrapperd2">
+                <input type="text" class="form-control" id="InputTitlu" placeholder="Titlul proiectului">
+              </div>
+            </div>
+      
+            <div id="wrapperIncarca">
+              <button type="submit" class="btn" id="incarca">Încarcă</button>
+            </div>
+      
+            <!--FOOTER-->
+      
+            <div class="row" id="footerPop">
+              <p id="footerPopup" class="container">Plângeri introduse până acum.</p>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="popupAppear.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
